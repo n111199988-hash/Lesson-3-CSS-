@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css lesson 3</title>
+    <style>
+        .Google{
+            color: rgb(0, 174, 255);
+        }
+        .Google:hover{
+            color: red;
+        }
+        p{
+            color: blue;
+        }
+        .Google:focus{
+            color: blueviolet;
+        }
+        .sometext{
+            color: red;
+            font-size: 30px;
+            font-family: arial;
+        }
+        .sometext:nth-child(3){
+            color: blue;
+            font-family: coursive;
+            font-weight: bold;
+        }
+        .sometext:first-child{
+            color: gray;
+        }
+        .sometext:last-child{
+            color: gray;
+        }
+        .patmutyun:first-letter{
+            color: black;
+            font-size: 20px;
+            font-family: monospace;
+        }
+        .patmutyun:first-line{
+            background: rgb(148, 148, 148);
+        }
+        .b{
+            color: blueviolet;
+            font-size: 40px;
+            font-family: cursive;
+        }
+        .b:before{
+            content: 'Hello ';
+            color: red;
+        }
+        .b:after{
+            content: ' Armenia';
+            color: yellow;
+        }
+        form input[data-anun="name"]{
+            background: blue;
+        }
+        form input[data-anun="last name"]{
+            background: red;
+        }
+        .indent{
+            text-indent: 35px;
+            word-spacing: 15px;
+            letter-spacing: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" class="Google">Google</a>
+    <div class="parent">
+        <div class="sometext">text</div>
+        <div class="sometext">text</div>
+        <div class="sometext">text</div>
+        <div class="sometext">text</div>
+        <div class="sometext">text</div>
+    </div>
+    <p class="patmutyun">In 2018, Mercedes-Benz became the world’s largest premium vehicle brand, with a sales volume of
+    2.31 million passenger cars.In May 2022, Mercedes-Benz announced that it had recently sold the most expensive car at
+    the price of $142 million (€135 million). The car is a very rare 1955 Mercedes-Benz SLR that has been kept in the
+    German automaker's collection and bought by a private owner. Mercedes in an announcement said that the sale will be
+    used to establish the Mercedes-Benz Fund.</p>
+
+    <p class="b">Mercedes-Benz is the best car in the world</p>
+
+    <form action="">
+        <input type="text" name="name" data-anun="name">
+        <input type="text" name="last name" data-anun="last name">
+    </form>
+    <p class="indent">In 2018, Mercedes-Benz became the world’s largest premium vehicle brand, with a sales volume of
+    2.31 million passenger cars.In May 2022, Mercedes-Benz announced that it had recently sold the most expensive car at
+    the price of $142 million (€135 million). The car is a very rare 1955 Mercedes-Benz SLR that has been kept in the
+    German automaker's collection and bought by a private owner. Mercedes in an announcement said that the sale will be
+    used to establish the Mercedes-Benz Fund.</p>
+</body>
+</html>
